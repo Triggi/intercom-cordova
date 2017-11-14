@@ -1,0 +1,15 @@
+{
+  "name": "intercom-cordova",
+  "version": "1.0.0",
+  "description": "Temporary fork of intercom-cordova plugin to fix build errors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Triggi/intercom-cordova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Triggi/intercom-cordova/issues"
+  },
+  "homepage": "https://github.com/Triggi/intercom-cordova#readme"
+}
