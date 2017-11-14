@@ -35,9 +35,6 @@ configurations.all {
 afterEvaluate {
     logIfIncorrectCompileSdkVersion()
     logIfIncorrectBuildToolsVersion()
-    configurations
-            .findAll { isCompileConfig(it) }
-            .each { logIncompatibleDependencies(it) }
 }
 
 private static String errorPrefix() {
